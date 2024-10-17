@@ -86,7 +86,7 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato.
 
-- Seu Nome: [natanaelnevesalves@gmail.com](mailto:natanaelnevesalves@gmail.com)
+- Natanael Neves: [natanaelnevesalves@gmail.com](mailto:natanaelnevesalves@gmail.com)
 - GitHub: [NatanaelNeves](https://github.com/NatanaelNeves)
 ```
 
