@@ -1,4 +1,3 @@
-```markdown
 # Plataforma de Filmes
 
 Este projeto é uma plataforma de filmes baseada em React, inspirada no estilo da Netflix. Os usuários podem navegar por uma lista de filmes, verificar seu acesso com base no login e na assinatura, e visualizar detalhes sobre os filmes.
