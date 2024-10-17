@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+```markdown
+# Plataforma de Filmes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma plataforma de filmes baseada em React, inspirada no estilo da Netflix. Os usuários podem navegar por uma lista de filmes, verificar seu acesso com base no login e na assinatura, e visualizar detalhes sobre os filmes.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Navegação de Filmes**: Visualização de uma lista de filmes com opções para assistir.
+- **Sistema de Login**: Usuários podem simular o login, definir seu status de assinatura e usar um voucher promocional.
+- **Checkbox Personalizada**: Estilização das checkboxes para uma melhor experiência de usuário.
+- **Interface Amigável**: Design intuitivo e responsivo.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Para a construção da interface do usuário.
+- **CSS**: Para estilização da aplicação.
+- **JavaScript**: Para a lógica de interação e manipulação do DOM.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Pré-requisitos
 
-### `npm test`
+Antes de começar, verifique se você tem os seguintes pré-requisitos instalados:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Node.js](https://nodejs.org/en/download/) (inclui npm)
 
-### `npm run build`
+## Instalação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone o repositório**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/NatanaelNeves/movie-platform
+   cd plataforma-de-filmes
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Instale as dependências**:
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Inicie o servidor de desenvolvimento**:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   A aplicação será aberta no seu navegador em `http://localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Estrutura do Projeto
 
-## Learn More
+```plaintext
+plataforma-de-filmes/
+│
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+│
+├── src/
+│   ├── componentes/
+│   │   ├── Header.js
+│   │   ├── Login.js
+│   │   ├── MovieCard.js
+│   │   └── MovieList.js
+│   │
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+│
+├── package.json
+└── README.md
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contribuição
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contribuições são bem-vindas! Se você deseja contribuir, por favor siga estes passos:
 
-### Code Splitting
+1. Fork este repositório.
+2. Crie sua branch de recurso (`git checkout -b minha-nova-funcionalidade`).
+3. Faça suas alterações e commit (`git commit -m 'Adiciona nova funcionalidade'`).
+4. Faça push para sua branch (`git push origin minha-nova-funcionalidade`).
+5. Abra um Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Licença
 
-### Analyzing the Bundle Size
+Este projeto está licenciado sob a [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contato
 
-### Making a Progressive Web App
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Seu Nome: [natanaelnevesalves@gmail.com](mailto:natanaelnevesalves@gmail.com)
+- GitHub: [NatanaelNeves](https://github.com/NatanaelNeves)
+```
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
